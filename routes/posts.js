@@ -31,7 +31,7 @@ router.post("/" , async (req, res) => {
 
     }catch(e) {
         res.status(500).json({
-            status: "failed",
+            status: "Failed ",
             message: e.message
         })
     }
@@ -77,3 +77,6 @@ router.delete("/:id", async (req, res) => {
 
 
 module.exports = router;
+
+////// xdcfvgbhnjmk
+///// zxcvbn
